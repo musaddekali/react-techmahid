@@ -1,0 +1,30 @@
+.faq .faq-wrap {
+  margin-bottom: 20px;
+}
+.faq .faq-ques {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  color: #343a40;
+  cursor: pointer;
+  user-select: none;
+  transition: var(--transition);
+}
+.faq .faq-ques:hover,
+.faq .faq-ques.active {
+  color: var(--theme-secondary-color);
+}
+
+.faq-ques::first-letter {
+  text-transform: uppercase;
+}
+
+.faq-ques svg {
+  font-size: 14px;
+  margin-left: 4px;
+}
+
+.faq-ans {
+  font-size: 15px;
+  margin-bottom: 20px;
+}

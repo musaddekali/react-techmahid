@@ -1,0 +1,33 @@
+.counts .count-box {
+    background: #f1f6fe;
+    width: 100%;
+    padding: 30px 30px 25px 30px;
+    position: relative;
+    text-align: center;
+}
+
+.counts .count-box i {
+    font-size: 24px;
+    padding: 12px;
+    background: #0d6efd;
+    color: #fff;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    display: inline-flex;
+    position: absolute;
+    top: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.counts .count-box .counter-up {
+    font-size: 36px;
+    font-weight: 600;
+    color: #062b5b;
+    display: block;
+}
+.counts .count-box p:last-child{
+    margin-bottom: 0;
+    font-size: 14px;
+    text-transform: capitalize;
+}

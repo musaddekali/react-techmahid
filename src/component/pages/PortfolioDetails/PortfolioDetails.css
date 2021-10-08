@@ -1,0 +1,122 @@
+/* breadcrumbs styles  */
+.breadcrumbs {
+  margin-top: 140px;
+  padding: 20px 0;
+  min-height: 40px;
+  background-color: #f1f6fe;
+}
+
+@media (max-width: 991px) {
+  .breadcrumbs {
+    margin-top: 70px;
+  }
+}
+
+.breadcrumbs h2 {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .breadcrumbs h2 {
+    margin-bottom: 10px;
+  }
+}
+
+.breadcrumbs ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.breadcrumbs ul li {
+  display: inline-block;
+}
+
+.breadcrumbs ul li + li::before {
+  content: "/";
+  padding: 0 5px;
+  display: inline-block;
+}
+
+/* portfolio details styles  */
+
+.portfolio-details-container {
+  position: relative;
+}
+
+.portfolio-details-info {
+  padding: 30px;
+  position: absolute;
+  right: 0;
+  bottom: -70px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+  z-index: 2;
+}
+
+@media (max-width: 767px) {
+  .portfolio-details-info {
+    position: static;
+    margin-top: 30px;
+  }
+}
+
+.portfolio-details-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-details-info ul {
+  font-size: 15px;
+  padding-bottom: 16px;
+}
+
+.portfolio-details-info ul li {
+  line-height: 1;
+  padding: 10px 0;
+}
+
+.portfolio-details-info strong {
+  padding-right: 4px;
+}
+
+.portfolio-details-desc {
+  padding-top: 50px;
+}
+
+.portfolio-details-desc h2 {
+  width: 50%;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.portfolio-details-desc h2::first-letter{
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  .portfolio-details-desc h2 {
+    width: 100%;
+  }
+}
+
+.portfolio-details .react-multi-carousel-list {
+  padding: 30px 0;
+}
+
+.portfolio-details .react-multi-carousel-dot-list {
+  justify-content: flex-start !important;
+}
+
+.portfolio-details .react-multi-carousel-dot button {
+  width: 12px !important;
+  height: 12px !important;
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.portfolio-details .react-multi-carousel-dot--active button {
+  background-color: var(--theme-secondary-color) !important;
+}

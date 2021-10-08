@@ -1,0 +1,17 @@
+.clients {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.clients img {
+  max-width: 45%;
+  padding: 15px 0;
+  display: inline-block;
+  transition: var(--transition);
+}
+
+@media (max-width: 767px) {
+    .clients img {
+        max-width: 40%;
+    }
+}

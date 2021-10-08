@@ -1,0 +1,38 @@
+.topbar {
+  background: var(--theme-secondary-color);
+  height: 40px;
+  width: 100%;
+  font-size: 14px;
+  color: #fff;
+  transition: all .5s;
+}
+
+.topbar.topbar-scrolled{
+  top: -40px;
+}
+
+.topbar .contact-info i {
+  margin-left: 15px;
+  padding-right: 4px;
+  color: #fff;
+}
+
+.topbar .contact-info i:first-child {
+  margin-left: 0;
+}
+
+.topbar .contact-info a {
+  color: #fff;
+  transition: var(--transition);
+}
+
+.topbar .social-links a {
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 15px;
+  transition: var(--transition);
+  font-size: initial;
+}
+
+.topbar .social-links a:hover {
+  color: #fff;
+}

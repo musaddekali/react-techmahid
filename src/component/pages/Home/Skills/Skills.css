@@ -1,0 +1,20 @@
+.skills .progress-wrapper{
+    margin-bottom: 18px;
+}
+.skills .skill {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 0;
+    display: block;
+    text-transform: uppercase;
+}
+
+.skills .progress {
+    height: 12px;
+    font-size: 12px;
+    border-radius: 0;
+}
+
+.skills .progress-bar {
+    transition: .9s ease-in-out;
+}

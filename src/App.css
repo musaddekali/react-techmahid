@@ -1,0 +1,111 @@
+/* All Global Style Will Goes Here  */
+:root {
+  --theme-primary-color: #444444;
+  --theme-secondary-color: #106eea;
+  --light-color: #fff;
+  --dark-color: #000;
+  --ligter-blue-color: #f6f9fe;
+  --theme-background: var(--light-color);
+  --transition: 0.3s ease-in;
+  --theme-hover-bg: #3b8af2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", "Open Sans", sans-serif;
+  color: var(--theme-primary-color);
+  background-color: var(--theme-background-color);
+}
+
+/*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+
+a {
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+/* Make all thous element --first letter-- uppercase 
+because we are feating data from array. 
+Array gives us all text 'lowercase' */
+h1::first-letter,
+h2::first-letter,
+h3::first-letter,
+h4::first-letter,
+h5::first-letter,
+h6::first-letter,
+p::first-letter,
+li::first-letter,
+button::first-letter,
+a::first-letter {
+  text-transform: uppercase;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+b .theme-secondary-text {
+  color: var(--theme-secondary-color) !important;
+}
+
+.theme-secondary-bg {
+  background: var(--theme-secondary-color) !important;
+}
+
+.section-padding {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: var(--ligter-blue-color);
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: blue;
+  background: #e7f1fd;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.section-title h3 {
+  margin: 15px 0 0 0;
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.section-title p {
+  margin: 15px auto 0 auto;
+  font-weight: 600;
+}
+
+@media (min-width: 1024px) {
+  .section-title p {
+    width: 50%;
+  }
+}
