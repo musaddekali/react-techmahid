@@ -112,7 +112,7 @@ export default function App() {
             {
                 preloader ? <Preloader /> :
                     <techMahidApiContext.Provider value={{ mainData, handlePortfolioDetails: handlePortfolioDetails }}>
-                        <Router>
+                        <Router basename="/react-techmahid">
                             <Topbar isScrolled={isScrolled} />
                             <Navbar isScrolled={isScrolled} />
                             <ScrollToTopOnMount />

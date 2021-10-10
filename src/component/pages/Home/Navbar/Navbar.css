@@ -4,7 +4,9 @@
   transition: all 0.5s;
   box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
 }
-
+.navbar.fixed-top {
+  z-index: 1000;
+}
 .navbar.navbar-scrolled {
   margin-top: 0;
   padding: 15px 0;
