@@ -1,6 +1,5 @@
 import React from 'react';
 import './Faq.css';
-import faqData from './faqData';
 import SingleFaq from './SingleFaq';
 
 export default function Faq({faq}) {

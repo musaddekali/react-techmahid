@@ -3,11 +3,6 @@ import './Testimonials.css';
 import SingleTestimonial from './SingleTestimonial';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import testimonial1 from '../../../../images/testimonials/testimonials-1.jpg';
-import testimonial2 from '../../../../images/testimonials/testimonials-2.jpg';
-import testimonial3 from '../../../../images/testimonials/testimonials-3.jpg';
-import testimonial4 from '../../../../images/testimonials/testimonials-4.jpg';
-import testimonial5 from '../../../../images/testimonials/testimonials-5.jpg';
 
 const responsive = {
     all: {
@@ -19,44 +14,6 @@ const responsive = {
         slidesToSlide: 1
     }
 }
-
-const testimonialsData = [
-    {
-        id: 1,
-        image: testimonial1,
-        name: 'Mahid Ahmod',
-        cat: 'CEO',
-        desc: 'Lorem ipsum dolor sit,  accusamus praesentium nisi nemo modi accusantium quia, adipisci architecto! Iste provident recusandae sint neque deserunt odio, itaque officiis possimus.'
-    },
-    {
-        id: 2,
-        image: testimonial2,
-        name: 'Mahdi alom',
-        cat: 'product designer',
-        desc: 'Lorem ipsum dolor sit,  nemo modi accusantium quia, adipisci architecto! Iste provident recusandae sint neque deserunt odio, itaque officiis possimus.'
-    },
-    {
-        id: 3,
-        image: testimonial3,
-        name: 'Mujakkir',
-        cat: 'web designer',
-        desc: 'Lorem ipsum dolor sit,  accusamus praesentium nisi nemo modi accusantium quia, adipisci architecto! Iste provident recusandae sint nequeamus praesentium nisi nemo m deserunt odio, itaque officiis possimus.'
-    },
-    {
-        id: 4,
-        image: testimonial4,
-        name: 'Jhon Doe',
-        cat: 'web developer',
-        desc: 'Lorem ipsum dolor sit,  ntium nisi nemo modi accusantium quia, adipisci architecto! Iste provident recusandae sint neque deserunt odio, itaque officiis possimus.'
-    },
-    {
-        id: 5,
-        image: testimonial5,
-        name: 'Musaddek Ali',
-        cat: 'software enginear',
-        desc: 'Lorem ipsum dolor sit,  accusamus praesentium nisiit,  accusamus praesentium nisi nemo modi accusantium quia, adipisci architecto! Iste provident recusandae sint neque deserunt odio, itaque officiis possimus.'
-    },
-];
 
 export default function Testimonials({testimonials}) {
     return (

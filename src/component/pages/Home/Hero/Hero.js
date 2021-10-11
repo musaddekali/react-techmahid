@@ -10,7 +10,7 @@ export default function Hero() {
                 <h2>We are team of talanted designers making websites with Bootstrap</h2>
                 <div className="d-flex">
                     <a href="#about" className="btn-get-started btn btn-primary me-4">Get Started</a>
-                    <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" target="_blank" className="btn-watch-video btn btn-primary"><i><FaRegPlayCircle/></i> Watch Video</a>
+                    <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" target="_blank" rel="noreferrer" className="btn-watch-video btn btn-primary"><i><FaRegPlayCircle/></i> Watch Video</a>
                 </div>
             </div>
         </section>
