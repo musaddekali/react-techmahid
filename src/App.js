@@ -98,7 +98,6 @@ export default function App() {
         });
         // remove preloader when finished the page loading 
         setPreloader(false);
-        return () => AOS.refresh();
     }, []);
 
     // set data to portfolio-details page, which item clicked from portfolio item 
