@@ -1,5 +1,5 @@
 # Note for website.
-## Website name is "Design".
+## Website name is "TechMahid".
 
 `Components Tree`
 
